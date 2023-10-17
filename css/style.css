@@ -1,0 +1,110 @@
+/* start global attribute */
+.main-font {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.main-color {
+  color: #17a2b8;
+}
+/* end global attribute */
+
+/* start bage1&2 */
+section {
+  background-color: #24353f;
+  height: 100vh;
+}
+
+.main-content {
+  background-color: #24353f;
+  width: 60%;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.main-content input {
+  background-color: #24353f;
+}
+
+input {
+  width: 90% !important;
+}
+button {
+  width: 90% !important;
+  transition: 0.3s !important;
+}
+
+::placeholder {
+  color: #b6b6b6 !important;
+}
+
+button:hover {
+  background-color: #17a2b8;
+}
+
+.message {
+  color: red;
+  padding: 10px 0;
+}
+
+.Success {
+  color: #28a745;
+}
+
+.incorrect {
+  color: #dc3545;
+}
+/* end bage1&2 */
+
+
+
+
+
+/* start bage3 */
+.bage3-nav {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  list-style: none;
+  font-size: 20px;
+}
+
+.logout {
+  border: #ffc107 solid 1px;
+  padding: 9px 9px;
+  list-style: none;
+  color: gray;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: .2s;
+}
+.logout:hover{
+  background-color: #ffc107;
+
+}
+
+.sayHello-content {
+  width: 60%;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  color: #17a2b8;
+}
+.sayHello {
+  height: 90%;
+  
+}
+
+
+.btnLogin{
+  text-decoration: none;
+  list-style: none;
+  color: #17a2b8;
+  border: #17a2b8 solid 1px;
+  border-radius: 5px;
+  width: 90%;
+  padding: 7px 5px;
+  margin-top: 20px;
+  transition: .5s;
+}
+
+.btnLogin:hover{
+  background-color: #17a2b8;
+  color: white;
+}
+/* end bage3 */
